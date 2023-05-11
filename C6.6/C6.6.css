@@ -1,6 +1,7 @@
+
 .chat-container {
     border: 3px solid rgba(71, 202, 250, 0.5);
-    width: 400px;
+    width: 500px;
     margin: 0 auto;
     padding: 10px;
 }
@@ -18,22 +19,34 @@ input[type="text"] {
     width: 70%;
     padding: 5px;
     font-size: 16px;
+    margin-right: 5px;
 }
 
 button {
     background-color: lightblue;
     color: black;
     border: none;
+    margin: 5px;
     padding: 5px 10px;
     font-size: 16px;
     cursor: pointer;
-    width: 100px;
+    width: 190px;
     height: 30px;
 }
+
 
 .messages-container {
     border: 3px solid rgba(71, 202, 250, 0.5);
     height: 300px;
     overflow-y: scroll;
     padding: 10px;
+    border-radius: 5px
 }
+
+.messages-container div {
+    border: 3px solid rgba(71, 202, 250, 0.5);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+} 
